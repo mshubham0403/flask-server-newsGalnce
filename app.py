@@ -1,19 +1,18 @@
-import json
-import numpy as np 
+
+
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize,word_tokenize
-import requests
+
 import re
-from flask import Flask,request,jsonify,make_response
+from flask import Flask,request,jsonify
 import nltk
 from flask_cors import CORS
 
 
-import json
 import requests
-import time
+
 
 nltk.download('punkt')
 nltk.download('stopwords')
